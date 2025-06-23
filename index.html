@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Support Chat</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="main-layout">
+        <aside class="sidebar">
+            <div class="mood-logger card">
+                <label for="moodSelect">How are you feeling today?</label>
+                <select id="moodSelect">
+                  <option value="">Select mood</option>
+                  <option value="happy">😊 Happy</option>
+                  <option value="neutral">😐 Neutral</option>
+                  <option value="anxious">😰 Anxious</option>
+                  <option value="sad">😢 Sad</option>
+                  <option value="angry">😠 Angry</option>
+                </select>
+                <button id="logMoodBtn">Log Mood</button>
+            </div>
+            <div class="mood-analytics card">
+              <h3>Your Mood Trend</h3>
+              <canvas id="moodChart" width="400" height="150"></canvas>
+              <div id="moodStats"></div>
+            </div>
+            <div class="resources-panel card">
+                <h3>Helpful Resources</h3>
+                <div class="resource-item">
+                    <i class="fas fa-phone"></i>
+                    <span>National Suicide Prevention Lifeline: 988</span>
+                </div>
+                <div class="resource-item">
+                    <i class="fas fa-globe"></i>
+                    <span>Crisis Text Line: Text HOME to 741741</span>
+                </div>
+                <div class="resource-item">
+                    <i class="fas fa-info-circle"></i>
+                    <span>This is not a substitute for professional help</span>
+                </div>
+            </div>
+        </aside>
+        <main class="main-content">
+            <div class="container">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <div class="header-content">
+                            <div class="logo">
+                                <i class="fas fa-heart"></i>
+                                <h1>Mental Health Support</h1>
+                            </div>
+                            <p class="subtitle">A safe space to share your thoughts and feelings</p>
+                        </div>
+                    </div>
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="message bot-message">
+                            <div class="message-content">
+                                <div class="avatar">
+                                    <i class="fas fa-user-md"></i>
+                                </div>
+                                <div class="text">
+                                    <p>Hello! I'm here to listen and support you. You can share anything that's on your mind - whether you're feeling down, anxious, or just need someone to talk to. What would you like to discuss today?</p>
+                                </div>
+                            </div>
+                            <div class="message-time">Just now</div>
+                        </div>
+                    </div>
+                    <div class="chat-input-container">
+                        <div class="input-wrapper">
+                            <input type="text" id="messageInput" placeholder="Share what's on your mind..." autocomplete="off">
+                            <button id="sendButton" class="send-button">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                        <div class="quick-replies" id="quickReplies">
+                            <button class="quick-reply" data-message="I'm feeling depressed">I'm feeling depressed</button>
+                            <button class="quick-reply" data-message="I'm anxious">I'm anxious</button>
+                            <button class="quick-reply" data-message="I lost someone important">I lost someone important</button>
+                            <button class="quick-reply" data-message="I need motivation">I need motivation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div id="profileModal" class="profile-modal">
+      <div class="profile-modal-content card">
+        <h2>Tell us about yourself</h2>
+        <form id="profileForm">
+          <label for="ageGroup">Age Group</label>
+          <select id="ageGroup" required>
+            <option value="">Select</option>
+            <option value="kid">Kid (under 13)</option>
+            <option value="teen">Teen (13-19)</option>
+            <option value="adult">Adult (20-64)</option>
+            <option value="senior">Senior (65+)</option>
+          </select>
+          <label for="gender">Gender</label>
+          <select id="gender" required>
+            <option value="">Select</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Other</option>
+            <option value="prefer_not">Prefer not to say</option>
+          </select>
+          <label for="employment">Employment</label>
+          <select id="employment" required>
+            <option value="">Select</option>
+            <option value="student">Student</option>
+            <option value="employed">Employed</option>
+            <option value="unemployed">Unemployed</option>
+            <option value="retired">Retired</option>
+            <option value="other">Other</option>
+          </select>
+          <button type="submit" id="saveProfileBtn">Save</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
