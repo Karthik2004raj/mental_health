@@ -71,156 +71,156 @@ class MentalHealthChatbot {
         this.responses = {
             depression: {
                 kid: [
-                    "It’s okay to feel sad sometimes. Try drawing how you feel or talking to a grown-up you trust!",
+                    "It's okay to feel sad sometimes. Try drawing how you feel or talking to a grown-up you trust!",
                     "Feeling down can be tough. Maybe cuddle with a favorite toy or watch a fun show to cheer up a little?",
                     "Sad feelings come and go. How about doing something you love, like playing a game?"
                 ],
                 teen: [
-                    "Feeling depressed can be really hard, and it’s okay to feel this way sometimes. Have you talked to a friend or a counselor about how you’re feeling?",
-                    "It’s tough when things feel heavy. Maybe listen to music you like or write down what’s on your mind?",
-                    "You’re not alone in feeling down. Try doing one small thing you enjoy, like gaming or texting a friend."
+                    "Feeling depressed can be really hard, and it's okay to feel this way sometimes. Have you talked to a friend or a counselor about how you're feeling?",
+                    "It's tough when things feel heavy. Maybe listen to music you like or write down what's on your mind?",
+                    "You're not alone in feeling down. Try doing one small thing you enjoy, like gaming or texting a friend."
                 ],
                 adult: [
                     "Depression can feel overwhelming, but your feelings are valid. Have you considered talking to a mental health professional for support?",
-                    "It takes courage to acknowledge depression. Small steps matter—like a short walk or a warm drink. What’s one thing you could try today?",
+                    "It takes courage to acknowledge depression. Small steps matter—like a short walk or a warm drink. What's one thing you could try today?",
                     "Be gentle with yourself; depression can make things feel heavy. Have you found any activities that bring a bit of comfort?"
                 ],
                 senior: [
-                    "Feeling down can be hard at any age, and it’s okay to feel this way. Have you shared how you’re feeling with someone close or a doctor?",
+                    "Feeling down can be hard at any age, and it's okay to feel this way. Have you shared how you're feeling with someone close or a doctor?",
                     "Depression can make days feel long. Maybe try a favorite hobby or calling a friend to lift your spirits?",
-                    "Your feelings matter. Small moments, like enjoying a cup of tea or a memory, can help. What’s something you enjoy?"
+                    "Your feelings matter. Small moments, like enjoying a cup of tea or a memory, can help. What's something you enjoy?"
                 ]
             },
             anxiety: {
                 kid: [
-                    "Feeling worried is okay! Try taking slow breaths like you’re blowing bubbles. What’s making you feel this way?",
-                    "When you’re nervous, try squeezing a squishy toy or counting to 10 slowly. Want to tell me more?",
-                    "It’s normal to feel anxious. Maybe hug a pet or tell a grown-up what’s on your mind?"
+                    "Feeling worried is okay! Try taking slow breaths like you're blowing bubbles. What's making you feel this way?",
+                    "When you're nervous, try squeezing a squishy toy or counting to 10 slowly. Want to tell me more?",
+                    "It's normal to feel anxious. Maybe hug a pet or tell a grown-up what's on your mind?"
                 ],
                 teen: [
-                    "Anxiety can make your mind race. Try breathing in for 4, holding for 4, and out for 6. What’s got you worried?",
-                    "Feeling anxious sucks, but you’re not alone. Maybe try a playlist or a quick TikTok break to relax?",
-                    "Anxiety can be tough. Ground yourself by naming 5 things you see around you. Want to share what’s up?"
+                    "Anxiety can make your mind race. Try breathing in for 4, holding for 4, and out for 6. What's got you worried?",
+                    "Feeling anxious sucks, but you're not alone. Maybe try a playlist or a quick TikTok break to relax?",
+                    "Anxiety can be tough. Ground yourself by naming 5 things you see around you. Want to share what's up?"
                 ],
                 adult: [
-                    "Anxiety can feel intense. Try a 4-4-6 breathing technique to calm your mind. What’s triggering your anxiety today?",
-                    "Ground yourself with the 5-4-3-2-1 technique: name 5 things you see, 4 you can touch, etc. What’s on your mind?",
-                    "Anxiety doesn’t define you. Have you tried relaxation techniques or talking to someone about what’s causing it?"
+                    "Anxiety can feel intense. Try a 4-4-6 breathing technique to calm your mind. What's triggering your anxiety today?",
+                    "Ground yourself with the 5-4-3-2-1 technique: name 5 things you see, 4 you can touch, etc. What's on your mind?",
+                    "Anxiety doesn't define you. Have you tried relaxation techniques or talking to someone about what's causing it?"
                 ],
                 senior: [
-                    "Anxiety can feel overwhelming, but small steps help. Try slow breathing or a calming tea. What’s worrying you?",
-                    "Worries can grow big, but you’re stronger than them. Maybe chat with a friend or try a quiet activity?",
-                    "It’s okay to feel anxious. Try focusing on one thing you enjoy, like reading or gardening, to ease your mind."
+                    "Anxiety can feel overwhelming, but small steps help. Try slow breathing or a calming tea. What's worrying you?",
+                    "Worries can grow big, but you're stronger than them. Maybe chat with a friend or try a quiet activity?",
+                    "It's okay to feel anxious. Try focusing on one thing you enjoy, like reading or gardening, to ease your mind."
                 ]
             },
             loss: {
                 kid: [
-                    "Missing someone is really hard. It’s okay to cry or talk about them. Want to share a fun memory?",
-                    "When you feel sad about someone, try drawing a picture for them. What’s something you loved doing with them?",
-                    "It’s okay to miss someone a lot. Maybe tell a grown-up how you feel or hug your favorite toy?"
+                    "Missing someone is really hard. It's okay to cry or talk about them. Want to share a fun memory?",
+                    "When you feel sad about someone, try drawing a picture for them. What's something you loved doing with them?",
+                    "It's okay to miss someone a lot. Maybe tell a grown-up how you feel or hug your favorite toy?"
                 ],
                 teen: [
-                    "Losing someone hurts a lot, and it’s okay to feel sad or mad. Have you talked to anyone about it, like a friend?",
+                    "Losing someone hurts a lot, and it's okay to feel sad or mad. Have you talked to anyone about it, like a friend?",
                     "Grief can feel heavy. Maybe write about your favorite memory or listen to music that reminds you of them?",
-                    "It’s tough to lose someone. Take it one day at a time and share how you feel with someone you trust."
+                    "It's tough to lose someone. Take it one day at a time and share how you feel with someone you trust."
                 ],
                 adult: [
-                    "I’m so sorry for your loss. Grief is personal, and all your feelings are valid. What would help you feel supported?",
-                    "Losing someone leaves a void. Healing takes time. What’s a memory of them that brings you comfort?",
+                    "I'm so sorry for your loss. Grief is personal, and all your feelings are valid. What would help you feel supported?",
+                    "Losing someone leaves a void. Healing takes time. What's a memory of them that brings you comfort?",
                     "Grief can be unpredictable. Be kind to yourself. Have you tried writing about your feelings or sharing memories?"
                 ],
                 senior: [
                     "Losing someone is deeply painful. Your feelings are valid. Would talking about them or a memory help?",
                     "Grief can feel heavy at times. Maybe share a story about them or do something they loved?",
-                    "I’m sorry for your loss. Take your time with these feelings. What’s a special memory you hold dear?"
+                    "I'm sorry for your loss. Take your time with these feelings. What's a special memory you hold dear?"
                 ]
             },
             motivation: {
                 kid: [
                     "You can do it! Try one small thing, like picking up your toys, and give yourself a high-five!",
                     "Feeling stuck? Do something fun, like jumping or coloring, to get moving again!",
-                    "You’re awesome! Try one little step, like smiling or helping someone, to feel great!"
+                    "You're awesome! Try one little step, like smiling or helping someone, to feel great!"
                 ],
                 teen: [
                     "Feeling unmotivated is normal. Start with something small, like 5 minutes of homework or a quick walk.",
                     "Motivation can be hard to find. Try a song that pumps you up or a quick chat with a friend!",
-                    "One small step can kickstart things. What’s something tiny you could do, like texting a friend?"
+                    "One small step can kickstart things. What's something tiny you could do, like texting a friend?"
                 ],
                 adult: [
-                    "Motivation ebbs and flows. Start with a small task, like making your bed, to build momentum. What’s one step you could take?",
-                    "Action often sparks motivation. What’s a 5-minute task you could tackle to feel accomplished?",
-                    "It’s okay to feel unmotivated. Revisit something you enjoy to reignite your spark. What’s that for you?"
+                    "Motivation ebbs and flows. Start with a small task, like making your bed, to build momentum. What's one step you could take?",
+                    "Action often sparks motivation. What's a 5-minute task you could tackle to feel accomplished?",
+                    "It's okay to feel unmotivated. Revisit something you enjoy to reignite your spark. What's that for you?"
                 ],
                 senior: [
                     "Some days feel harder to get going. Try a small task, like a short walk or a call, to feel good.",
-                    "Motivation can start with one step. What’s something you love, like a hobby, to get moving?",
-                    "You don’t need to rush. Pick one small thing, like reading a page, to feel proud today."
+                    "Motivation can start with one step. What's something you love, like a hobby, to get moving?",
+                    "You don't need to rush. Pick one small thing, like reading a page, to feel proud today."
                 ]
             },
             stress: {
                 kid: [
-                    "Feeling stressed? Take slow breaths like you’re smelling a flower. What’s making you feel this way?",
-                    "Stress can be yucky. Try playing with a toy or telling a grown-up what’s up!",
-                    "It’s okay to feel stressed. Maybe draw a picture or snuggle up to feel calmer?"
+                    "Feeling stressed? Take slow breaths like you're smelling a flower. What's making you feel this way?",
+                    "Stress can be yucky. Try playing with a toy or telling a grown-up what's up!",
+                    "It's okay to feel stressed. Maybe draw a picture or snuggle up to feel calmer?"
                 ],
                 teen: [
-                    "Stress can pile up fast. Try breathing slowly or watching a funny video to chill. What’s stressing you?",
+                    "Stress can pile up fast. Try breathing slowly or watching a funny video to chill. What's stressing you?",
                     "When things feel too much, take a break with music or a quick game. Want to talk about it?",
-                    "Stress is rough. Try writing down what’s bugging you or texting a friend to feel lighter."
+                    "Stress is rough. Try writing down what's bugging you or texting a friend to feel lighter."
                 ],
                 adult: [
-                    "Stress can be overwhelming. Try the 4-7-8 breathing technique to relax. What’s causing your stress?",
-                    "Take a moment for yourself—maybe a walk or music. What’s one thing you can do to ease stress today?",
+                    "Stress can be overwhelming. Try the 4-7-8 breathing technique to relax. What's causing your stress?",
+                    "Take a moment for yourself—maybe a walk or music. What's one thing you can do to ease stress today?",
                     "Stress is tough but manageable. Have you found small ways to unwind, like a hobby or talking it out?"
                 ],
                 senior: [
                     "Stress can weigh heavy. Try slow breathing or a favorite activity, like knitting, to relax.",
-                    "You’ve handled stress before. Maybe a quiet moment or a chat with a friend can help?",
-                    "It’s okay to feel stressed. What’s one small thing, like a cup of tea, that could calm you?"
+                    "You've handled stress before. Maybe a quiet moment or a chat with a friend can help?",
+                    "It's okay to feel stressed. What's one small thing, like a cup of tea, that could calm you?"
                 ]
             },
             loneliness: {
                 kid: [
                     "Feeling lonely is hard. Try playing with a pet or calling a friend to feel better!",
-                    "It’s okay to miss friends. Maybe draw a picture for someone you love or talk to a grown-up?",
-                    "You’re never really alone! Try doing something fun, like reading a story, to cheer up."
+                    "It's okay to miss friends. Maybe draw a picture for someone you love or talk to a grown-up?",
+                    "You're never really alone! Try doing something fun, like reading a story, to cheer up."
                 ],
                 teen: [
-                    "Loneliness can hit hard. Try texting a friend or joining an online group you like. What’s up?",
+                    "Loneliness can hit hard. Try texting a friend or joining an online group you like. What's up?",
                     "Feeling alone is tough. Maybe watch a favorite show or message someone to connect?",
                     "You deserve connection. Try reaching out to someone or doing something you enjoy, like gaming."
                 ],
                 adult: [
-                    "Loneliness can be painful, but you’re not alone in feeling this way. What’s something you enjoy that could lift your spirits?",
+                    "Loneliness can be painful, but you're not alone in feeling this way. What's something you enjoy that could lift your spirits?",
                     "Connection takes time, but small steps help. Have you considered joining a group or reaching out to someone?",
-                    "It’s okay to feel lonely. Try an activity you love or contacting someone you trust to feel less alone."
+                    "It's okay to feel lonely. Try an activity you love or contacting someone you trust to feel less alone."
                 ],
                 senior: [
-                    "Loneliness can creep in, but you’re valued. Maybe call a friend or try a community activity?",
+                    "Loneliness can creep in, but you're valued. Maybe call a friend or try a community activity?",
                     "Feeling alone is hard. Try a favorite hobby or sharing a memory with someone to feel connected.",
-                    "Your need for connection is natural. What’s one thing, like a phone call, that could help today?"
+                    "Your need for connection is natural. What's one thing, like a phone call, that could help today?"
                 ]
             },
             default: {
                 kid: [
-                    "I’m here to listen! Tell me what’s on your mind or how you’re feeling today.",
-                    "You’re super brave for sharing! What’s something fun or tough you want to talk about?",
-                    "I’m your buddy! Want to share what’s making you happy or sad right now?"
+                    "I'm here to listen! Tell me what's on your mind or how you're feeling today.",
+                    "You're super brave for sharing! What's something fun or tough you want to talk about?",
+                    "I'm your buddy! Want to share what's making you happy or sad right now?"
                 ],
                 teen: [
-                    "I’m here for you. What’s going on—feeling stressed, happy, or something else?",
-                    "You’re not alone. Want to talk about what’s on your mind, like school or friends?",
-                    "I’m listening. What’s something you’re dealing with or excited about today?"
+                    "I'm here for you. What's going on—feeling stressed, happy, or something else?",
+                    "You're not alone. Want to talk about what's on your mind, like school or friends?",
+                    "I'm listening. What's something you're dealing with or excited about today?"
                 ],
                 adult: [
-                    "I’m here to support you. What’s on your mind—any challenges or thoughts you want to share?",
-                    "Your feelings matter. Is there something specific you’d like to talk about or work through?",
-                    "I’m listening. What would be most helpful for you right now—a chat or some advice?"
+                    "I'm here to support you. What's on your mind—any challenges or thoughts you want to share?",
+                    "Your feelings matter. Is there something specific you'd like to talk about or work through?",
+                    "I'm listening. What would be most helpful for you right now—a chat or some advice?"
                 ],
                 senior: [
-                    "I’m here to listen. What’s on your heart today—memories, worries, or joys?",
-                    "Your thoughts are important. Want to share what’s going on or something you enjoy?",
-                    "I’m here for you. What would feel good to talk about today, big or small?"
+                    "I'm here to listen. What's on your heart today—memories, worries, or joys?",
+                    "Your thoughts are important. Want to share what's going on or something you enjoy?",
+                    "I'm here for you. What would feel good to talk about today, big or small?"
                 ]
             }
         };
@@ -248,14 +248,12 @@ class MentalHealthChatbot {
     changeTheme(themeName) {
         const theme = this.themes[themeName];
         if (!theme) return;
-        
         this.currentTheme = themeName;
-        
         document.body.style.background = theme.background;
         const chatHeader = document.querySelector('.chat-header');
-        chatHeader.style.background = theme.headerBg;
+        if (chatHeader) chatHeader.style.background = theme.headerBg;
         const sendButton = document.getElementById('sendButton');
-        sendButton.style.background = theme.headerBg;
+        if (sendButton) sendButton.style.background = theme.headerBg;
         const quickReplies = document.querySelectorAll('.quick-reply');
         quickReplies.forEach(button => {
             button.style.borderColor = theme.primaryColor;
@@ -266,12 +264,10 @@ class MentalHealthChatbot {
             icon.style.color = theme.primaryColor;
         });
         const logoHeart = document.querySelector('.logo i');
-        logoHeart.style.color = theme.accentColor;
-        
+        if (logoHeart) logoHeart.style.color = theme.accentColor;
         document.body.style.transition = 'background 0.8s ease';
-        chatHeader.style.transition = 'background 0.8s ease';
-        sendButton.style.transition = 'background 0.8s ease';
-        
+        if (chatHeader) chatHeader.style.transition = 'background 0.8s ease';
+        if (sendButton) sendButton.style.transition = 'background 0.8s ease';
         this.showThemeNotification(theme.name);
     }
     
@@ -351,7 +347,7 @@ class MentalHealthChatbot {
     addMessage(text, sender) {
         const sanitizedText = text.replace(/[<>]/g, '');
         const messageDiv = document.createElement('div');
-        messageDiv.className = message ${sender}-message;
+        messageDiv.className = `message ${sender}-message`;
         messageDiv.setAttribute('role', 'log');
         messageDiv.setAttribute('aria-live', 'polite');
         
@@ -435,7 +431,7 @@ class MentalHealthChatbot {
         const now = new Date();
         const hours = now.getHours().toString().padStart(2, '0');
         const minutes = now.getMinutes().toString().padStart(2, '0');
-        return ${hours}:${minutes};
+        return `${hours}:${minutes}`;
     }
     
     scrollToBottom() {
@@ -493,12 +489,12 @@ function getMoodLog() {
 
 function renderMoodChart() {
     const moodLog = getMoodLog();
-    const ctx = document.getElementById('moodChart').getContext('2d');
+    const moodChartElem = document.getElementById('moodChart');
+    if (!moodChartElem) return;
+    const ctx = moodChartElem.getContext('2d');
     if (window.moodChartInstance) window.moodChartInstance.destroy();
-
     const labels = moodLog.map(entry => entry.date);
     const data = moodLog.map(entry => entry.score);
-
     window.moodChartInstance = new Chart(ctx, {
         type: 'line',
         data: {
@@ -527,7 +523,7 @@ function renderMoodChart() {
             plugins: {
                 tooltip: {
                     callbacks: {
-                        label: context => Mood: ${['Angry', 'Sad', 'Anxious', 'Neutral', 'Happy'][context.raw]}
+                        label: context => `Mood: ${['Angry', 'Sad', 'Anxious', 'Neutral', 'Happy'][context.raw]}`
                     }
                 }
             }
@@ -537,8 +533,10 @@ function renderMoodChart() {
 
 function renderMoodStats() {
     const moodLog = getMoodLog();
+    const moodStatsElem = document.getElementById('moodStats');
+    if (!moodStatsElem) return;
     if (moodLog.length === 0) {
-        document.getElementById('moodStats').textContent = 'No mood data yet.';
+        moodStatsElem.textContent = 'No mood data yet.';
         return;
     }
     const freq = {};
@@ -550,7 +548,7 @@ function renderMoodStats() {
         if (moodLog[i].mood === last) { streak++; maxStreak = Math.max(maxStreak, streak);}
         else { streak = 1; last = moodLog[i].mood; }
     }
-    document.getElementById('moodStats').innerHTML =
+    moodStatsElem.innerHTML =
         `<b>Most common mood:</b> ${mode} <br>
          <b>Average mood score:</b> ${avg} <br>
          <b>Longest streak:</b> ${maxStreak} days`;
